@@ -1,0 +1,12 @@
+html{
+   color: aqua;
+   background-color: blue;
+}
+
+h5{
+   color: rgb(174, 67, 190);
+   margin: 8px;
+   padding: 10px;
+   font-size: 100px;
+   background-color: black;
+}
