@@ -28,5 +28,5 @@ h2{
     margin: 0;                  /* Asegura que no haya márgenes adicionales */
     border: 1px solid #000;     /* Añade un borde para visualización */
     background-color: #f0f0f0;  /* Color de fondo para visualización */
-    font-size: 16px; 
+   font-size: 16px; 
 }
