@@ -3,10 +3,30 @@ html{
    background-color: blue;
 }
 
-h5{
-   color: rgb(174, 67, 190);
-   margin: 8px;
-   padding: 10px;
-   font-size: 100px;
-   background-color: black;
+h2{
+   font-size: larger;
+   font-family:Arial, Helvetica, sans-serif;
+   padding: 12px;
+   background-color: antiquewhite;
+   color: black;
+}
+
+#corazon{
+   height: 200px;
+   width: auto;
+   margin: 10px;
+}
+
+#click{
+   display: inline-block;      /* Asegura que el botón respete los márgenes y padding */
+    width: 150px;               /* Ancho del botón */
+    height: 50px;               /* Altura del botón */
+    line-height: 50px;          /* Altura de línea igual a la altura del botón para centrar verticalmente */
+    text-align: center;         /* Centra el texto horizontalmente */
+    vertical-align: middle;     /* Centra el texto verticalmente (en elementos en línea) */
+    padding: 0;                 /* Asegura que no haya padding adicional */
+    margin: 0;                  /* Asegura que no haya márgenes adicionales */
+    border: 1px solid #000;     /* Añade un borde para visualización */
+    background-color: #f0f0f0;  /* Color de fondo para visualización */
+    font-size: 16px; 
 }
