@@ -1,7 +1,12 @@
 h2{
     background-color: blue;
     color: white;
+    justify-content: center;
+    margin: 10px;
+    padding: 9px;
+    height: 9999%;
 }
 html{
     background-color: blanchedalmond;
 }
+
