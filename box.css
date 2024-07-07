@@ -1,13 +1,11 @@
 .card{
-    background: rgb(217, 130, 130);
+    background: #d98282;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: aliceblue;
     width: 300px;
     margin: auto;
-    border-width: 10px;
-    border-color: aqua;
-    border-style: double;
+    border: 10px double aqua;
 }
 
 h1{
