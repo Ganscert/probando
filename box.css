@@ -1,5 +1,25 @@
-div{
+.card{
     background: red;
-    height: 200px;
-    width: 200px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: aliceblue;
+    width: 400px;
+    margin: auto;
+    border-width: 10px;
+    border-color: aqua;
+    border-style: double;
+}
+
+h1{
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+p{
+    font-weight:600;
 }
