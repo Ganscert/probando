@@ -21,7 +21,7 @@ input{
 
 form{
     background: linear-gradient(#fd2c56,#4d0d37);
-    width: 30%;
-    height: 60%;
+    width: 200px;
+    height: 150px;
     padding: 0;
 }
