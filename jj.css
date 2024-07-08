@@ -17,6 +17,7 @@ input{
     text-align: center;
     margin-left: 20px;
     padding: 0;
+    display:inline-block ;
 }
 
 form{
@@ -24,4 +25,8 @@ form{
     width: 185px;
     height: 140px;
     padding: 0px;
+}
+
+p{
+    margin: 4px;
 }
