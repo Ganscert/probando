@@ -1,24 +1,27 @@
-h2{
-    background-color: blue;
-    color: white;
-    justify-content: center;
-    margin: 10px;
-    padding: 9px;
-    height: 9%;
-    border-width: 10px;
-    border-color: black;
-}
-html{
-    background-color: blanchedalmond;
+a{
+    color: red;
+    text-decoration: none;
+
 }
 
-div{
-    margin-left: 300px;
-    content: normal;
-    position:fixed;
-    border-color: rgb(146, 39, 39);
-    border-width: 100px;
-    border-radius: 20%;
-    width: 100px;
-    height: 100px;
+body{
+    background-color: antiquewhite;
+}
+
+input{
+    background-color: antiquewhite;
+    border: none;
+    border-top: 1px #000 solid;
+    border-left: 1px #000 solid;
+    margin: 10px;
+    text-align: center;
+    margin-left: 20px;
+    padding: 0;
+}
+
+form{
+    background: linear-gradient(#fd2c56,#4d0d37);
+    width: 30%;
+    height: 60%;
+    padding: 0;
 }
