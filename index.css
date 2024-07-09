@@ -1,11 +1,11 @@
 a{
     color: red;
     text-decoration: none;
-
 }
 
 body{
     background-color: antiquewhite;
+    text-align: center;
 }
 
 input{
@@ -23,10 +23,21 @@ input{
 form{
     background: linear-gradient(#fd2c56,#4d0d37);
     width: 185px;
-    height: 140px;
+    height: 160px;
     padding: 0px;
+    margin: auto;
 }
 
 p{
     margin: 4px;
+}
+
+h1{
+    border: solid #aafd;
+    text-align: center;
+    padding-left: 0%;
+}
+
+li::marker {
+    content: none;
 }
