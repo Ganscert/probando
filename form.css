@@ -16,6 +16,7 @@ form{
     margin-top: 5%;
     margin-bottom: 10%;
     border-radius: 20px;
+    width: 200px;
 }
 .form_input{
     padding: 6px 20px;
