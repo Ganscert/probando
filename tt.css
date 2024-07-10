@@ -7,7 +7,9 @@ body{
     font-weight:lighter;
     width: 400px;
     margin: auto;
-    box-shadow: 0px 0px 55px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 55px #000d;
 }
 
 h1{
@@ -18,26 +20,31 @@ h1{
     margin-top: 10px;
     margin-bottom: 5px;
     border: 3px solid ;
-    width: 40%;
+    width: 80%;
 }
 
 h2{
     background-color: #0099003f;
     border: 3px solid;
-    width: 70%;
+    width:80%;
     margin:auto
 }
 
 h3{
     background-color: #f0d3ffa2;
     border: 2px solid;
-    width: 70%;
+    width:80%;
     margin:auto
 }
 
 h4{
     border: 3px solid;
-    width: 70%;
+    width:80%;
     margin:auto;
     margin-bottom: 10px;
+}
+
+div{
+    margin-top: 50px;
+    box-sizing: content-box;
 }

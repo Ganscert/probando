@@ -11,18 +11,41 @@
         <h2>
             formulario de contacto
         </h2>
+        <fieldset>
+            <legend>informacion basica</legend>
+            <div class="form_input">
+                <label>nombre</label>
+                <input placeholder="nombre completo" type="text">
+            </div>
+            <div class="form_input">
+                <label>email
+                <input placeholder="email" type="email"></label>
+            </div>
+            <div class="form_input">
+                <label>contraseña
+                <input placeholder="password" type="password"></label>
+            </div>
+    </fieldset>
         <div class="form_input">
-            <input placeholder="nombre completo" type="text">
+            <select>
+                <option>hola</option>
+                <option>hola2</option>
+                <option>hola3</option>
+            </select>
+        </div>
+        <div class="form_input" >
+            <input list="referente" name="referente">
+            <datalist id="referente">
+                <option>hola</option>
+                <option>hola2</option>
+                <option>hola3</option>
+            </datalist>
         </div>
         <div class="form_input">
-            <input placeholder="email" type="email">
+            <label>mensaje
+            <textarea rows="6" maxlength="180"></textarea></label>
         </div>
-        <div class="form_input">
-            <input placeholder="password" type="password">
-        </div>
-        <div class="form_input">
-            <textarea ></textarea>
-        </div>
+        
     </form>
 </body>
 </html>
