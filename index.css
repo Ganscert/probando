@@ -37,7 +37,6 @@ h1{
     text-align: center;
     padding-left: 0%;
 }
-
-li::marker {
-    color: blue;
+li::marker{
+    content: "@";
 }
