@@ -16,7 +16,6 @@ form{
     margin-top: 5%;
     margin-bottom: 10%;
     border-radius: 20px;
-    width: 300px;
 }
 .form_input{
     padding: 6px 20px;
@@ -50,4 +49,7 @@ fieldset{
 
 form:hover{
     box-shadow: 0 0 30px #f00;
+}
+input:focus{
+    box-shadow: 0 0 50px #f00;
 }

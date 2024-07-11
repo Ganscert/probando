@@ -56,3 +56,16 @@ table,td,th{
     border-top: 1px solid;
 
 }
+
+.hover:hover{
+    box-shadow: 0 0 20px #f00;
+}
+.active:active{
+    box-shadow: 0 0 20px #ff0;
+}
+
+input[type=mail]{
+    width: 80%;
+    background-color: #afd7;
+    
+}
