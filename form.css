@@ -47,3 +47,7 @@ width: 10000px;
 fieldset{
     border: 1px solid #fff5
 }
+
+form:hover{
+    box-shadow: 0 0 30px #f00;
+}
