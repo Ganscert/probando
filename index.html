@@ -11,7 +11,32 @@
 
 
 <body>
-    <h1>primera pagina</h1> 
+    <dialog id="myDialog"
+        <div>
+            <p>esta es la pagina principal, se encarga de mostrar todas las direcciones que tiene toda la pagina</p>
+            <form method="dialog">
+                <button id="closedialog">x</button>
+            </form>
+            
+        </div>
+    </dialog>
+    <a id="openDialog" href="#">Informacion</a>
+    <script>
+        const dialog = document.getElementById('myDialog');
+        const openDialog = document.getElementById('openDialog');
+        const closeDialog = document.getElementById('closeDialog');
+
+        openDialog.addEventListener('click', (event) => {
+            event.preventDefault();
+            dialog.showModal();
+        });
+
+        closeDialog.addEventListener('click', () => {
+            dialog.close();
+        });
+    </script>
+    <form method="dialog">
+    </form>
     <h2>paginas asociadas</h2>
     <ul>
         <li>
@@ -34,7 +59,7 @@
     <a href="https://www.instagram.com/_cm_emmanuel_?igsh=MWVwdTNkZDF6OGppcA%3D%3D&utm_source=qr" target="_blank">
         <img src="./statics/Python-logo-notext.svg.png" alt="logo de javascript" width="100px" height="100px">
     </a>
-    <form>
+    <form class="loco">
         <label>nombre</label>
         <input type="text" placeholder="nombre" name="nombre" required>
         <input type="email" placeholder="emm@gmail.com" name="email" required>

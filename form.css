@@ -51,5 +51,5 @@ form:hover{
     box-shadow: 0 0 30px #f00;
 }
 input:focus{
-    box-shadow: 0 0 50px #f00;
+    box-shadow: 0 0 10px #f00;
 }

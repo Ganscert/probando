@@ -6,6 +6,7 @@ a{
 body{
     background-color: antiquewhite;
     text-align: center;
+    font-family:sans-serif;
 }
 
 input{
@@ -20,7 +21,7 @@ input{
     display:inline-block ;
 }
 
-form{
+.loco{
     background: linear-gradient(#fd2c56,#4d0d37);
     width: 185px;
     height: 160px;
@@ -38,5 +39,31 @@ h1{
     padding-left: 0%;
 }
 li::marker{
-    content: "@";
+    color: #6660;
+}
+
+#openDialog{
+    position:absolute;
+    right: 0px;
+}
+#myDialog{
+    background-color: rgb(140, 207, 186);
+    width: 300px;
+    position: absolute;
+    top: 0;
+    box-shadow: 0 0 10px #000;
+}
+
+#closedialog{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border-color: transparent;
+    box-sizing: content-box;
+    font-size: 20px;
+}
+
+#closedialog{
+    forced-color-adjust:none;
 }
