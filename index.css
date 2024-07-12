@@ -46,6 +46,7 @@ li::marker{
     position:absolute;
     right: 0px;
 }
+
 #myDialog{
     background-color: rgb(140, 207, 186);
     width: 300px;
