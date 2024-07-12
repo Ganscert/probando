@@ -27,6 +27,7 @@ input{
     height: 160px;
     padding: 0px;
     margin: auto;
+
 }
 
 p{
@@ -42,15 +43,20 @@ li::marker{
     color: #6660;
 }
 
-#openDialog{
-    position:absolute;
-    right: 0px;
+h2{
+    display: inline-block;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+nav{
+background-color: #ddd;
+width: 60%;
+margin: auto;
 }
 
 #myDialog{
     background-color: rgb(140, 207, 186);
     width: 300px;
-    position: absolute;
     top: 0;
     box-shadow: 0 0 10px #000;
 }
@@ -68,3 +74,4 @@ li::marker{
 #closedialog{
     forced-color-adjust:none;
 }
+
