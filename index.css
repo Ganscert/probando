@@ -53,6 +53,11 @@ background-color: #ddd;
 width: 60%;
 margin: auto;
 }
+#openDialog{
+    position:absolute;
+    right: 60px;
+    top: 25px;
+}
 
 #myDialog{
     background-color: rgb(140, 207, 186);
