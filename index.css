@@ -44,7 +44,8 @@ li::marker{
 
 #openDialog{
     position:absolute;
-    right: 0px;
+    right: 60px;
+    top: 25px;
 }
 
 #myDialog{
