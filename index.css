@@ -43,20 +43,18 @@ li::marker{
     color: #6660;
 }
 
-h2{
-    display: inline-block;
-    padding: 0;
-    margin: 0 10px 0 0;
-}
+
+
 nav{
-background-color: #ddd;
+background-color: #dddf;
 width: 60%;
 margin: auto;
 }
 #openDialog{
-    position:absolute;
-    right: 60px;
-    top: 25px;
+    margin: auto;
+    margin-left: 30px;
+    background-color: #ddd;
+    color: #0af;
 }
 
 #myDialog{
