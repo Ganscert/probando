@@ -61,7 +61,7 @@ table,td,th{
     box-shadow: 0 0 20px #f00;
 }
 .active:active{
-    box-shadow: 0 0 20px #ff0;
+    box-shadow: 0 0 50px #ff0;
 }
 
 input[type=mail]{
