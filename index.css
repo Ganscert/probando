@@ -16,7 +16,6 @@ input{
     border-left: 1px #000 solid;
     margin: 10px;
     text-align: center;
-    margin-left: 20px;
     padding: 0;
     display:inline-block ;
 }
@@ -43,6 +42,9 @@ li::marker{
     color: #6660;
 }
 
+form{
+    box-sizing: content-box;
+}
 
 
 nav{
@@ -78,3 +80,6 @@ margin: auto;
     forced-color-adjust:none;
 }
 
+input:focus{
+    outline: #00f
+}
