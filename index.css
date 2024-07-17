@@ -38,8 +38,8 @@ h1{
     text-align: center;
     padding-left: 0%;
 }
-li::marker{
-    color: #6660;
+li{
+    list-style: none;
 }
 
 form{
