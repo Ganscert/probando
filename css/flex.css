@@ -24,17 +24,20 @@ body{
 .flexitem:nth-child(2n):hover{
     background: #000;
     border: 3px #fff solid;
-    transition-duration: 2.5s;
+    transition-duration: 0.5s;
 }
 
 .grid{
     text-align: center;
     display:grid;
-    grid-template-columns: .5fr 50% auto;
-    grid-template-rows: 50% 50%;
-    height: 50vh;
-    width: 99vw;
-    background-color: #000;
+    grid-template-columns: .5fr 50% repeat(2,100px) 1fr 1fr;
+    grid-template-rows: 50% 50% 50%;
+    height: 500px;
+    width: 50vw;
+    background-color: #39b7d7;
+    grid-auto-rows: 200px;
+    margin:auto;
+    gap: 0px;
 }
 
 div>div{
@@ -50,11 +53,12 @@ div>div{
     font-size: 3em;
     margin: 10px;
     border: solid #fff ;
-    text-align: center;
     justify-content: center;
 }
 
 
-div:hover{
-    background-color: #000;
+
+a{
+    cursor:progress
 }
+
