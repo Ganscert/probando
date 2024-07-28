@@ -49,7 +49,7 @@ body{
 }
 
 .back{
-    background-color: red;
+    background-color: #a69;
     transform: rotatey(180deg);
     margin: auto;
     display: flex;
