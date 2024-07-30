@@ -26,6 +26,7 @@ body{
     flex-direction: column;
     transition: transform 1s;
     perspective:100dvw; 
+    box-shadow: 0 0 0 10px red;
 }
 
 .front, .back {
@@ -49,7 +50,7 @@ body{
 }
 
 .back{
-    background-color: red;
+    background-color: #0ff8;
     transform: rotatey(180deg);
     margin: auto;
     display: flex;
