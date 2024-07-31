@@ -26,7 +26,6 @@ body{
     flex-direction: column;
     perspective:100dvw; 
     border-radius: 30px;
-    box-shadow: 0 0 10px red;
 }
 
 .front, .back {
@@ -36,6 +35,7 @@ body{
     backface-visibility: hidden;
     border: 2px solid black;
     transition: transform 1.3s;
+    box-shadow: 0 0 10px red;
     border-radius: 30px;
 }
 
